@@ -1,8 +1,8 @@
-public class One {
+class One {
     public static void main(String[] args) {
         System.out.println("Main class");
 
-        Car carro = new Car("Fusca", "1980", "ABC-1234");
+        Car carro = new Car("Golf", "2012", "ABC-1234");
         carro.start();
     }
 }
